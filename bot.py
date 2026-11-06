@@ -17,11 +17,11 @@ from telegram.ext import (Application, CommandHandler, MessageHandler,
                           ContextTypes, filters)
 
 # ===================== CONFIG =====================
-BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-API_URL = "https://yourpanel.com/api/v2"
-API_KEY = "YOUR_SMM_PANEL_API_KEY"
-ADMIN_IDS = [123456789]
-FORCE_CHANNELS = ["@channel1", "@channel2"]   # bot must be ADMIN in these. [] = off
+BOT_TOKEN = "9045958588:AAFSQRxpRsMEfE6L15Lyy4vfg6PWDG6UEIM"
+API_URL = "https://mixersmm.in/api/v2"
+API_KEY = "a566f0b95c1e794612dfc6b803810f32"
+ADMIN_IDS = [9045958588]
+FORCE_CHANNELS = ["@App_Yono_Code_Code", "@channel2"]   # bot must be ADMIN in these. [] = off
 CURRENCY = "₹"
 RATE_MULTIPLIER = 1.0     # panel USD -> your currency (e.g. 90). 1.0 = no change
 DEFAULT_MARKUP = 20       # percent profit on top of panel rate (change: /setmarkup)
@@ -29,7 +29,7 @@ WELCOME_BONUS = 5.0       # one-time free balance after joining channels
 REFERRAL_BONUS = 3.0      # given to referrer when new user joins
 DAILY_BONUS = 1.0         # free bonus every 24h
 MIN_FUND = 50.0
-SUPPORT = "@your_support_username"
+SUPPORT = "@daslrt"
 QR_IMAGE = "qr.png"       # put your payment QR image in the same folder as this file
 PAYMENT_INFO = ("💳 Scan the QR and pay the exact amount.\n"
                 "UPI: yourupi@bank\n\n"
