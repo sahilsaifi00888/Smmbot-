@@ -1,1 +1,3 @@
-Flask>=3.0,<4.0\nrequests>=2.31,<3.0\npython-telegram-bot[job-queue]>=21.10,<22.0\n
+Flask>=3.0,<4.0
+requests>=2.31,<3.0
+python-telegram-bot[job-queue]>=21.10,<22.0
