@@ -1,2 +1,1 @@
-python-telegram-bot[job-queue]==20.7
-requests>=2.31.0
+Flask>=3.0,<4.0\nrequests>=2.31,<3.0\npython-telegram-bot[job-queue]>=21.10,<22.0\n
