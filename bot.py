@@ -18,15 +18,15 @@ from telegram.ext import (Application, CommandHandler, MessageHandler,
                           CallbackQueryHandler, ContextTypes, filters)
 
 # ===================== CONFIG =====================
-BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-API_URL = "https://yourpanel.com/api/v2"
-API_KEY = "YOUR_SMM_PANEL_API_KEY"
-ADMIN_IDS = [123456789]
+BOT_TOKEN = "9176820070:AAFtXycYxPtLbmK9O_E930JaNyuP7zNs_6I"
+API_URL = "https://mixersmm.in/api/v2"
+API_KEY = "a566f0b95c1e794612dfc6b803810f32"
+ADMIN_IDS = [9250632413]
 CURRENCY = "₹"
-SUPPORT = "@your_support_username"
+SUPPORT = "@montysmm"
 QR_IMAGE = "qr.png"            # your payment QR image (same folder as this file)
 PAYMENT_INFO = ("💳 Scan the QR and pay the exact amount.\n"
-                "UPI: yourupi@bank")
+                "UPI: sahilsaifi786@fam")
 DEFAULT_CHANNELS = []          # optional first-run channels e.g. ["@mychannel"]
 # starting values - all of these can be changed later from the Admin Panel
 DEFAULTS = {"welcome": 5, "daily": 1, "refpct": 5, "minfund": 50}
